@@ -1,0 +1,19 @@
+[project]
+name = "pyLiftRe"
+authors = [
+    { name = "Thomas Cowart", email = "thomas.cowart@duke.edu" },
+]
+description = "Library for creating custom liftover scripts"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT License" }
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = ["bx-python>=0.13"]
+version = "0.1"
+keywords = ["bioinformatics"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 120
